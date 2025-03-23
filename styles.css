@@ -97,6 +97,7 @@ a {
     padding: 0.4 rem;
     background-color: none;
     text-decoration: none;
+    margin-right: 1rem;
 }
 body.darkMode header {
     background-color: #121212;
@@ -185,6 +186,10 @@ body.darkMode .paragraph {
     text-align: center;
     display: block;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    margin: 0 auto;  
+    padding: 1rem;
+
 }
 #modeButton {
     background-color: #e75eb3be;
@@ -204,6 +209,10 @@ body.darkMode .paragraph {
     margin: 0 auto;  
     margin-bottom: 1rem;    
     
+}
+
+#seeMoreButton{
+margin-top: 2rem;
 }
 
 .overlay.hidden {
@@ -272,9 +281,17 @@ body.darkMode #projects {
     background-color: #252424;
 }
 .skill h3 {
-    color: #0f0e0e;
+    color: #a13f7a;
     font-size: 1.5rem;
     margin-bottom: 10px;
+}
+
+body.darkMode .skill h3{
+    color: rgb(0, 0, 0);
+}
+
+body.darkMode .project h3{
+    color: white;
 }
 .projectcontainer {
     background-size: cover;
@@ -331,9 +348,9 @@ body.darkMode div#project {
     font-size: 2.5rem;
     color: #290b2e;
 }
-body.darkMode #skills h2,
+
 body.darkMode #skills h3 {
-    color: #dac6d0;
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -418,6 +435,11 @@ body.darkMode #skills {
     margin-bottom: 1rem;
     color: #452149;
     align-items: center;
+}
+
+
+body.darkMode .contactH2{
+    color: rgb(0, 0, 0);
 }
 .formContainer {
     display: flex;
