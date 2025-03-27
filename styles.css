@@ -240,7 +240,8 @@ body.darkMode .paragraph {
     display: block;
     width: auto;
     margin: 0 auto;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    background-color: #9A4C95;
 }
 
 #seeMoreButton {
@@ -378,7 +379,7 @@ body.darkMode div#project {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #084c61;
+    background-color: #172A3A;
     background-size: cover;
     background-position: center;
     height: auto;
@@ -394,15 +395,12 @@ body.darkMode div#project {
     box-shadow: 0 4px 15px rgb(0 0 0 / .3)
 }
 
-#contactH2 {
+h2.contactH2 {
     margin-bottom: 1rem;
-    color: #452149;
+    color: #2d0c30;
     align-items: center
 }
 
-body.darkMode .contactH2 {
-    color: #000
-}
 
 .formContainer {
     display: flex;
@@ -412,25 +410,23 @@ body.darkMode .contactH2 {
     gap: 20px;
     width: 100%;
     max-width: 500px;
-    background: linear-gradient(#ffffff, #c8c7c7);
+    background-color: #ffffff;
     padding: 0 2rem;
     border-radius: 2rem;
     box-shadow: 0 6px 15px rgb(0 0 0 / .2)
 }
 
 body.darkMode .formContainer {
-    color: #f064d2;
     background-color: #303030
 }
 
-body.darkMode #contactH2 {
-    color: #f4f1f1;
-    background-color: #303030
+body.darkMode h2.contactH2 {
+    color: #fc8ce4;
 }
 
 .formContainer label {
     font-size: 1.8rem;
-    color: #77517f;
+    color:  #46184b;
     line-height: 1.8;
     text-align: left
 }
@@ -439,13 +435,14 @@ body.darkMode #contactH2 {
 .formContainer textarea {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     width: 100%;
-    padding: .5rem;
+    padding: 0.5rem;
     line-height: 1.8;
-    border-radius: 5px;
-    border: 2px solid #ccc;
+    border-radius: 2rem;
+    border: 3px solid #665774a0;
     font-size: 1rem;
     border-radius: 1rem;
-    transition: transform 0.2s ease, box-shadow 0.3s ease
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    color: purple;
 }
 
 .formContainer input:hover,
@@ -460,7 +457,6 @@ textarea#message {
 
 body.darkMode .formContainer input,
 .formContainer textarea {
-    color: #f064d2;
     background-color: #fff
 }
 
@@ -475,9 +471,12 @@ body.darkMode .formContainer input,
 }
 
 body.darkMode .contactSection {
-    color: #f064d2;
     background-color: #252424;
-    border-radius: 0
+}
+
+body.darkMode label {
+    color:#f4f1f1;
+ 
 }
 
 #backToTopButton {
