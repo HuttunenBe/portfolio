@@ -1,5 +1,7 @@
 A portfolio website built as the final project for the HTML and CSS course at Business College Helsinki. The goal was to showcase personal style and web development skills by using HTML, CSS and JavaScript.
 
+____
+
 ✅ Features
 - Hero section with background image
 - About section with profile image and bio
@@ -14,6 +16,7 @@ A portfolio website built as the final project for the HTML and CSS course at Bu
 - Responsive design for different screen sizes
 - CSS transitions and animations
 
+____
 
 🛠️ Tech Stack
 * HTML5
